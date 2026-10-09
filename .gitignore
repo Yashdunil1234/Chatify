@@ -1,0 +1,22 @@
+# Dependencies
+
+node_modules/
+backend/node_modules/
+chat-frontend/node_modules/
+
+# Environment variables and secrets
+
+.env
+.env.*
+*.env
+*-*.env
+backend/.env
+
+# Build files
+
+build/
+dist/
+
+# Logs
+
+npm-debug.log*

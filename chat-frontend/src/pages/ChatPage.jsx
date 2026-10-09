@@ -240,7 +240,8 @@ import io from "socket.io-client";
 import API from "../config/api";
 import "./ChatPage.css";
 
-const ENDPOINT = "http://localhost:5000";
+const ENDPOINT =
+  process.env.REACT_APP_SOCKET_URL || "http://localhost:5000";
 let socket;
 
 const ChatPage = ({ user, setUser }) => {
